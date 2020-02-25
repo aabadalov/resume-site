@@ -9,6 +9,47 @@
      <link href="css/bootstrap-4.4.1.css"
     rel="stylesheet">
       <link href="js/bootstrap-4.4.1.js" rel="stylesheet">
+      
+      <style>
+          .img-thumbnail {
+              padding:10px;
+          }
+         
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #004953;
+}
+
+.img-thumbnail:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: white;
+    text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+          
+          .text a {
+              color:white;
+            
+          }
+</style>
 	  
   </head>
   <body>
@@ -34,8 +75,8 @@ Testing + Analytics +
         <a target="_blank" href="mailto:aabadalov@gmail.com">aabadalov@gmail.com</a><br>
 			<a target="_blank" href="#">(703) 338-9148</a> <br>
 			  <a target="_blank" href="https://www.linkedin.com/in/alibadalov/">LinkedIn</a><br>
-			<a target="_blank" href="files/Ali%20Badalov%20Resume.pdf">Download my Resume</a>
-         
+			<a  href="#portfolio">Portfolio</a><br>
+         <a target="_blank" href="files/Ali%20Badalov%20Resume.pdf">Resume</a>
 			 
         </div>
 		 
@@ -144,20 +185,34 @@ Testing + Analytics +
           
       </div>
       <hr>
-      <!-- <h2>Portfolio</h2>
+      <h2>Portfolio</h2>
     
       <div class="container">
         <div class="row text-center">
-          <div class="col-sm-4 col-12 p-0"><img class="img-thumbnail"  src="images/300X200.gif" alt=""></div>
-          <div class="col-sm-4 col-12 p-0"><img class="img-thumbnail"  src="images/300X200.gif" alt=""></div>
-          <div class="col-sm-4 col-12 p-0"><img class="img-thumbnail"  src="images/300X200.gif" alt=""></div>
+          <div class="col-sm-6 col-12 p-0 img-thumbnail "><img class="img-thumbnail"  src="images/TreeFolkTeaser.png" alt=""><div class="overlay">
+              <div class="text"> <a id="portfolio" href="https://www.youtube.com/watch?v=Y3yoO2E8kHg&t=54s" target="_blank">Tree Folk Doc: Production, Editing, Adobe Premiere</a></div>
+  </div>
+</div>
+            
+         <div class="col-sm-6 col-12 p-0 img-thumbnail "><img class="img-thumbnail"  src="images/ga-site-teaser.png" alt=""><div class="overlay">
+             <div class="text"><a href="www.greenamerica.org" target="_blank">Green America Website: Development, Design, Drupal, Git</a></div>
+  </div>
+</div>
+         
         </div>
         <div class="row text-center">
-          <div class="col-sm-4 col-12 p-0"><img class="img-thumbnail"  src="images/300X200.gif" alt=""></div>
-          <div class="col-sm-4 col-12 p-0"><img class="img-thumbnail"  src="images/300X200.gif" alt=""></div>
-          <div class="col-sm-4 col-12 p-0"><img class="img-thumbnail"  src="images/300X200.gif" alt=""></div>
+          <div class="col-sm-6 col-12 p-0 img-thumbnail "><img class="img-thumbnail"  src="images/godiva-teaster.png" alt=""><div class="overlay">
+    <div class="text">Digital Marketing Collateral: Design, Photoshop</div>
+  </div>
+</div>
+            
+         <div class="col-sm-6 col-12 p-0 img-thumbnail "><img class="img-thumbnail"  src="images/bureau-teaser.png" alt=""><div class="overlay">
+             <div class="text"><a href="https://youtu.be/2tMu5WyFLpo" target="_blank">Bureau Animation Series: Adobe Photoshop, After Effects</a></div>
+  </div>
+</div>
+        
         </div>
-      </div> -->
+      </div>
         
         <!-- Contact Form --> 
      <!-- <hr>
@@ -187,13 +242,13 @@ Testing + Analytics +
             </form>
           </div>
         </div>
-      </div>
-      <hr>-->
+      </div>-->
+      <hr>
       <footer class="text-center">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <p>References and portfolio available upon request.</p>
+              <p>References and extended portfolio available upon request.</p>
             </div>
           </div>
         </div>
