@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ali Badalov</title>
     <!-- Bootstrap -->
-     <link href="css/bootstrap-4.4.1.css"
+      
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+       <script src="js/popper.min.js"></script>
+     <!--<link href="css/bootstrap-4.4.1.css"
     rel="stylesheet">
       <link href="js/bootstrap-4.4.1.js" rel="stylesheet">
+      <link href="js/jquery-3.4.1.min.js" rel="stylesheet">-->
+     
       
       <style>
           .img-thumbnail {
@@ -211,8 +217,9 @@ Testing + Analytics <br>
          
         </div>
         <div class="row text-center">
-          <div class="col-sm-6 col-12 p-0 img-thumbnail "><img class="img-thumbnail"  src="images/godiva-teaster.png" alt=""><div class="overlay">
-    <div class="text">Digital Marketing Collateral: Design, Photoshop</div>
+          <div class="col-sm-6 col-12 p-0 img-thumbnail "><img class="img-thumbnail "  src="images/godiva-teaster.png" alt="godiva-teaser"><div class="overlay">
+              <div class="text"><a href="https://unsplash.it/1200/768.jpg?image=250" data-toggle="lightbox" data-title="A random title" data-footer="A custom footer text">
+                  <img class="img-fluid">Digital Marketing Collateral: Design, Photoshop</a></div>
   </div>
 </div>
             
@@ -223,6 +230,8 @@ Testing + Analytics <br>
         
         </div>
       </div>
+    
+            
         
         <!-- Contact Form --> 
      <!-- <hr>
@@ -264,11 +273,16 @@ Testing + Analytics <br>
         </div>
       </footer>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-     
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
+      
+    
+                     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+       <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });</script>
   </body>
 </html>
